@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@700..400&display=swap');
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.dd .pairat .textp{
+    margin-bottom:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: auto;
+}
+.dd{
+    top:-15px;
+}
+
+.ss{
+    font-family:"Playwrite CU", cursive;
+    font-size: 24px;
+}
+.bb{
+    display: flex;
+    margin-bottom: 100px;
+}
+.dd .btn{
+    border-radius: 0;
+    padding: 10px;
+    margin: 5px;
+}
+.dd .h1{
+    font-family: serif;
+    font-weight: 100;
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+.dd .p1{
+    width: 600px;
+    margin: auto;
+    font-family: sans-serif;
+    text-transform:lowercase;
+    margin-bottom: 20px;
+}
+.dd img{
+    height:100vh;
+}
+.sc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #f8f9fa;
+    gap: 20px;
+    text-align: center;
+    font-family:serif;
+}
+.sc2 p,.sc2 span{
+    font-family: sans-serif;
+    text-transform: lowercase;  
+}
+.pai{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.pai1{
+    margin-top: 50px;
+
+}
+.h-2{
+    font-family: serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+.our img{
+    width: 100%;
+    height: 300px;
+}
+.up{
+    position: fixed;
+    bottom:100px;
+    right: 15px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    display: none;
+}
+.pai2{
+    background-image:url(../img/img12.jpg) ;
+    height: 200px;
+    color: white;
+    background-size: cover;
+    background-position: center center;
+}
+.pai2 .row .go{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+    font-family: serif;
+    font-size: 20px;
+    
+}
+.pai3{
+    background-image:url(../img/img13.png) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.pai3 .p5{
+    font-family:"Playwrite CU", cursive;
+}
+.pai3 .ph5{
+    font-family: serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+.read{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.img-red{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.img-red img{
+    border-radius: 5px;
+
+}
+@media  (max-width: 768px) {
+    .bb{
+        margin-bottom:200px;
+        margin-top: 20px;
+    }
+}
